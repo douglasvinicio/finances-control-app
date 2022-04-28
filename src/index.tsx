@@ -33,7 +33,7 @@ seeds(server) {
       {
         id: 3,
         title: "Rent",
-        type: "withdraw",
+        type: "deposit",
         category: "Living",
         amount: 1000,
         createdAt: new Date('2022-12-06T03:24:00'),
