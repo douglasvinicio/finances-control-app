@@ -6,7 +6,7 @@ import { Container } from "./styles";
 // Consigo acessar qualquer componente idependete do nivel hierarquico do elemento.
 
 export function TransactionsTable() {
-    const transactions = useContext(TransactionsContext)
+    const {transactions} = useContext(TransactionsContext)
 
     return (
         <Container>
@@ -26,14 +26,14 @@ export function TransactionsTable() {
                         <tr key={transaction.id}>
                             <td>{transaction.title}</td>
                             <td className={transaction.type}>
-                                {new Intl.NumberFormat('pt-br', {
+                                {new Intl.NumberFormat('en-us', {
                                     style: 'currency',
-                                    currency: 'BRL'
+                                    currency: 'USD'
                                 }).format(transaction.amount)}
                             </td>
                             <td>{transaction.category}</td>
                             <td>
-                                {new Intl.DateTimeFormat('pt-br').format(
+                                {new Intl.DateTimeFormat('en-us').format(
                                     new Date(transaction.createdAt)
                                 )}
                             </td>

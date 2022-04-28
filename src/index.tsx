@@ -17,7 +17,7 @@ seeds(server) {
         title: "Freelance Website",
         type: "withdraw",
         category: "Software Developer",
-        amount: 6000,
+        amount: 500,
         createdAt: new Date('2022-05-10T03:24:00'),
       },
 
@@ -28,15 +28,6 @@ seeds(server) {
         category: "Living",
         amount: 1000,
         createdAt: new Date('November 05, 2022 03:24:00'),
-      },
-
-      {
-        id: 3,
-        title: "Rent",
-        type: "deposit",
-        category: "Living",
-        amount: 1000,
-        createdAt: new Date('2022-12-06T03:24:00'),
       }
     ],
   })
