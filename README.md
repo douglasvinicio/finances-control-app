@@ -10,6 +10,7 @@ In this class we learnt different tools and concepts like (I'll write them down 
 - INTL to currency formating. 
 
 ![Modal - using react-modal](src/assets/images/application-2.png)
+![Application - Dashboard](src/assets/images/application-1.png)
 
 To run this app simply go to the project directory and run **`yarn start`** on the terminal. 
 
