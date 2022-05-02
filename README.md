@@ -9,7 +9,7 @@ In this class we learnt different tools and concepts like (I'll write them down 
 - StyledComponents
 - INTL to currency formating. 
 
-[Modal - using react-modal](src/assets/images/applicaton-2)
+[Modal - using react-modal](src/assets/images/application-2.png)
 
 To run this app simply go to the project directory and run **`yarn start`** on the terminal. 
 
