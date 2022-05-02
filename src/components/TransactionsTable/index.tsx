@@ -1,12 +1,11 @@
-import { useContext } from "react";
-import { TransactionsContext } from "../../TransactionsContext";
+import { useTransactions } from "../../hooks/useTransactions";
 import { Container } from "./styles";
 
 // Context => Compartilhamento de estado entre varios componentes da aplicacao idependente de onde esses elementos estao.
 // Consigo acessar qualquer componente idependete do nivel hierarquico do elemento.
 
 export function TransactionsTable() {
-    const {transactions} = useContext(TransactionsContext)
+    const {transactions} = useTransactions();
 
     return (
         <Container>
