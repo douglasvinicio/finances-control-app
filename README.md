@@ -4,11 +4,12 @@ An React app using TypeScript - It was done following classes from [RocketSeat](
 In this class we learnt different tools and concepts like (I'll write them down in order by relevance): 
 - Hooks 
 - Context
-- Provider and Consumer
-- 
+- Using Provider and Consumer
+- MirageJs to fake API requests without the need of an backend. 
+- StyledComponents
+- INTL to currency formating. 
 
-
-Always a good experience coding with them. 
+[Modal - using react-modal](src/assets/images/applicaton-2)
 
 To run this app simply go to the project directory and run **`yarn start`** on the terminal. 
 
